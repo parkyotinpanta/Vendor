@@ -11,4 +11,4 @@
 // }, { timestamps: true })
 
 // module.exports = mongoose.model('products',productSchema)
-// หาฐานข้อมูลใหม่ ถ้าจะเขียน mongoose ต้องเขียนกรอกข้อมูลทั้งหมด 
+// 
