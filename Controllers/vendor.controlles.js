@@ -1,4 +1,4 @@
-const vendor = require()
+const vendor = require('')
 
 exports.list = async (req, res) => {
     try {
@@ -7,7 +7,7 @@ exports.list = async (req, res) => {
         res.send(producted)
     } catch (err) {
         console.log(err)
-        res.status(500).send('Server Error')
+        res.status(500).send('List Error')
     }
 }
 exports.add = async (req, res) => {
@@ -16,7 +16,7 @@ exports.add = async (req, res) => {
         res.send(vendor2)
     } catch (err) {
         console.log(err)
-        res.status(500).send('Server Error')
+        res.status(500).send('Add Error')
     }
 }
 exports.view = async (req, res) => {
@@ -26,6 +26,6 @@ exports.view = async (req, res) => {
         res.send(vendor3)
     } catch (err) {
         console.log(err)
-        res.status(500).send('Server Error')
+        res.status(500).send('View Error')
     }
 }
